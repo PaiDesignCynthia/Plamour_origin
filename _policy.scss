@@ -1,0 +1,42 @@
+.position-policy {
+    display: flex; 
+    justify-content: center;
+    margin: 80px auto;
+}
+.padding-policy {
+    padding: 64px;
+    border: 8px solid transparent;
+    border-radius: 8px;
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    background-image: linear-gradient(to right, #ffffff, #ffffff), linear-gradient(270deg, $purple, $primary-color, $yellow, $blue);
+}
+
+
+.sub-title-policy {
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 700;
+    padding-bottom: 12px;
+
+}
+.text-policy {
+    line-height: 150%;
+}
+.part-policy {
+    margin-bottom: 24px;
+}
+.order-list{
+    li {
+        line-height: 150%;
+        display: flex;
+    }
+}
+.order-list-count {
+    padding-right: 8px;
+}
+.sub-count {
+    padding-left: 24px;
+    white-space:nowrap;
+    
+}

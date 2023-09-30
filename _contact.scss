@@ -1,0 +1,32 @@
+.contact {
+    margin: 120px auto;
+    .social-media {
+        display: flex;
+        justify-content: center;
+        padding: 48px;
+        background: #fafafa;
+        margin-top: 80px;
+    }
+    .sns-image {
+        width: 48px;
+    }
+}
+.contact-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 32px 0 12px 0;
+}
+.contact-link {
+    color: #2F80ED;
+    border-bottom: 1px solid #2F80ED;
+    &:hover {
+        border-bottom: 1px solid $primary-color; 
+    }
+}

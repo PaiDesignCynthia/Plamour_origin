@@ -1,0 +1,217 @@
+
+
+.vtuber-menu {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 40px 0;
+    position:sticky;
+    background: linear-gradient(to bottom,#ffffff 80%, #ffffff, transparent 100%);
+    @media (max-width: 560px) { 
+        padding-top: 40px}
+    .vtuber-icon {
+        padding-right: 32px;
+        @media (max-width: 768px) { 
+            padding-right: 14px;}
+        @media (max-width: 560px) { 
+            padding-right: 8px;}
+    }
+    .end-icon {
+        padding-right: 0px;
+    }
+    .vtuber-menu-name {
+        font-size: 22px;
+        font-family: round;
+        text-align: center;
+        @media (max-width: 768px) { 
+            font-size: 18px;}
+        @media (max-width: 560px) { 
+            font-size: 14px;}
+    }
+    .vtuber-icon-size {
+        width: 140px;
+        height: 140px;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        @media (max-width: 768px) { 
+            width: 120px;
+            height: 120px;}
+        @media (max-width: 560px) { 
+            width: 80px;
+            height: 80px;}
+    }
+    .vtuber-icon-1 {
+        background-image: url(img/icon-妮露米.png);
+        color:rgb(11, 82, 121);
+        .vtuber-menu-name {
+            padding-left: 32px;
+            @media (max-width: 560px) { 
+                padding-left: 16px;}
+        }
+        
+    }
+    .vtuber-icon-2 {
+        background-image: url(img/icon-森羽悠娜.png);
+        color:rgb(7, 54, 6);
+        .vtuber-menu-name {
+            padding-left: 22px;
+            @media (max-width: 560px) { 
+                padding-left: 11px;}
+        }
+    }
+    .vtuber-icon-3 {
+        background-image: url(img/icon-未定.png);
+    }
+    .vtuber-icon-4 {
+        background-image: url(img/icon-未定.png);
+    }
+}
+.background {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.background-blue {
+    background-image: url(img/background-blue.png);
+}
+.background-green {
+    background-image: url(img/background-green.png);
+}
+.vtuber {
+    .padding-top-and-bottom {
+        padding: 120px 0;
+        @media (max-width: 768px) { 
+            padding: 60px 0;};
+        @media (max-width: 560px) { 
+            padding: 20px 0;};  
+    }
+    .content {
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 12px;
+        padding: 60px 40px;
+        width: 60%;
+        @media (max-width: 1200px) { 
+            margin: 40px 0;};
+        @media (max-width: 992px) { 
+            padding: 40px;
+            margin: 20px 0;
+            width: 60%};
+        @media (max-width: 460px) { 
+            width: 80%};
+    }
+    .vtuber-name {
+        font-family: round;
+        font-size: 40px;
+        line-height: 120%;
+        margin-bottom: 20px;
+        color: #000000;
+        @media (max-width: 768px) { 
+            font-size: 28px;};
+    }
+
+    .description {
+        font-size: 24px;
+        line-height: 150%;
+        padding-bottom: 40px;
+        color: $natural-900;
+        @media (max-width: 992px) { 
+            font-size: 20px;
+            padding-bottom: 20px;};
+        @media (max-width: 768px) { 
+            font-size: 16px;};        
+    }
+    .vtuber-image {
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .sns-image {
+        width: 32px;
+    }
+    .btn {
+        border: none;
+        font-size: 20px;
+        padding: 8px 10px 8px 20px;
+    }
+}
+.vtuber-1 {
+    .btn {
+        background: $purple;
+        
+    }
+    .vtuber-image-1 {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        @media (max-width: 992px) { 
+            width: 50%;
+        };
+    }
+}
+.vtuber-2 {
+    .padding-top-and-bottom {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .btn {
+        background: $yellow;
+        color: black;
+    }
+    .vtuber-image-2 {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        @media (max-width: 992px) { 
+            width: 50%;
+        };
+
+    }
+}
+.modal-vtuber {
+    .modal-header {
+        border: none;
+    }
+    .header-mobile {
+        display: none;
+        @media (max-width: 767px) { 
+            display: flex;
+            justify-content: end;}; 
+    }
+    .header-pc {
+        @media (max-width: 767px) { 
+            display: none;}; 
+    }
+    .image-vtuber{
+        background-image: linear-gradient(140deg,$purple 10%, $yellow 10%, $yellow 90%,$primary-color 90%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (max-width: 767px) {
+            margin-bottom: 40px; 
+            padding: 40px 0}; 
+    }
+    .title {
+        font-family: round;
+        font-size: 40px;
+        padding-bottom: 8px;
+        border-bottom: 3px solid;
+        border-image: linear-gradient(to right,$yellow, $primary-color, $purple) 1;
+        margin-bottom: 48px;
+    }
+    .text {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .video {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+//修改 bootstrap var//
+.modal-vtuber {
+    --bs-modal-width: 1200px;
+}

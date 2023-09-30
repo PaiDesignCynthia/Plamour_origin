@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plamour-最新消息</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: round;
+            src: url(/font/Round.otf)
+    }
+    </style>
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <!--header-->
+    <div class="container">
+        <header class="header">
+            <a href="/index.html"><h1><img src="/img/image-logo.png" alt="Plamour"></h1></a>
+            <!--web nav-->
+            <ul class="nav header-nav display-none">
+                <li>
+                    <a class="sub-page active" href="/news.html">
+                        <div class="sub-page-icon sub-page-icon-active-1"></div>
+                        <p class="sub-page-name">最新消息</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="sub-page" href="/vtuber.html">
+                        <div class="sub-page-icon sub-page-icon-2"></div>
+                        <p class="sub-page-name">藝人介紹</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="sub-page" href="/contact.html">
+                        <div class="sub-page-icon sub-page-icon-3"></div>
+                        <p class="sub-page-name">聯絡我們</p>
+                    </a>
+                </li>
+            </ul>
+            <!--mobile nav-->
+            <div class="dropdown header-nav-dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="/img/icon-menu.png" alt="menu">
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <a href="/news.html">
+                        <li class="header-nav">
+                            <button class="dropdown-item" type="button" >
+                            <div class="sub-page-icon sub-page-icon-1"></div>最新消息</button>
+                        </li>
+                    </a>
+                    <a href="/vtuber.html">
+                        <li class="header-nav">
+                            <button class="dropdown-item" type="button">
+                            <div class="sub-page-icon sub-page-icon-2"></div>藝人介紹</button>
+                        </li>
+                    </a>
+                    <a href="/contact.html">
+                        <li class="header-nav">
+                            <button class="dropdown-item" type="button">
+                            <div class="sub-page-icon sub-page-icon-3"></div>聯絡我們</button>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <!--banner-->
+    <div class="banner">
+        <img class="box-sm left-box-sm" src="/img/rectangle-color.png" alt="">
+        <img class="left-box-lg" src="/img/rectangle-color.png" alt="">
+        <h1 class="title">最新消息</h1>
+        <img class="right-box-lg" src="img/rectangle-color.png" alt="">
+        <img class="box-sm right-box-sm" src="/img/rectangle-color.png" alt="">
+    </div>
+    <!--news-->
+    <div class="container all-news">
+        <!-- news-1 -->
+        <div class="sub-page-news" type="button" data-bs-toggle="modal" data-bs-target="#news-1">
+            <img class="col-md-6 col-lg-5 image" src="/img/news-image-1.png" alt="news">
+            <div class="content col-md-6  col-lg-7 ">
+                <div class="wording">
+                    <h2 class="title">湖南みあ生日記念豪華特典！8/11(五)19:00起開始販售~同人cosplay場就在世貿三館！</h2>
+                    <p class="description">本次主題是以"Summer Time"為主要設計概念，按照慣例，除了全新的周邊以外，還有特別的現場活動。這次我們的攤位也跟以往完全不同，會以全新的面貌參展!
+                        非常期待當天與各位見面，敬請期待!</p>
+                </div>
+                <div class="tag-and-date">
+                    <div class="tag sales"><p>販賣資訊</p></div>
+                    <p class="date">2023/07/30</p>
+                </div>
+            </div>
+        </div>
+        <!-- news-1 modal -->
+        <div class="modal fade modal-news" id="news-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="image news-image-1"></div>
+                    <div class="content">
+                        <img src="/img/decoration-1.png" alt="image">
+                        <h2 class="modal-title">湖南みあ生日記念豪華特典！<br>8/11(五)19:00起開始販售~同人cosplay場就在世貿三館！</h2>
+                        <p class="description">本次主題是以"Summer Time"為主要設計概念，按照慣例，除了全新的周邊以外，還有特別的現場活動。這次我們的攤位也跟以往完全不同，會以全新的面貌參展!
+                            非常期待當天與各位見面，敬請期待!</p>
+                        <h3 class="modal-sub-title">✦買動漫預購也已經同步上架✦</h3>
+                        <p>體諒無法到場購買的觀眾，這次的預購有準備50份限量套組
+                            請各位不要錯過預購時間哦!<br>
+                            賣場傳送門：<a href="https://reurl.cc/qL4kXp">https://reurl.cc/qL4kXp</a></p>
+                        <h3 class="modal-sub-title">✦現場活動✦</h3>
+                        <p class="description">本次的FF攤位，依然會帶來許多活動哦!<br>滿額贈禮、競標活動、現場互動區、一對一Talk 以及全新的子午計畫一番賞</p>
+                        <h3 class="modal-sub-title">✦子午計畫一番賞✦</h3>
+                        <p class="description">本次的FF攤位，依然會帶來許多活動哦!<br>FF41整整三天都有獎項等你來抽!</p>
+                        <ol>
+                            <li>1. 每抽300元，通通有獎，均可獲得隨機四款保底胸章+對應之一番賞獎項。</li>
+                            <li>2. 抽完後現場兌換，兌獎紙由工作人員回收，離櫃後無法兌換，請多注意。</li>
+                            <li>3. 每天限量400抽，抽完為止。</li>
+                            <li>4. 獎項分別有：A、Ｂ、Ｃ、Ｄ、Ｅ、Ｆ、Ｇ賞以及最終賞。</li>
+                            <li>5. 最終賞為每日抽完當日最後一抽即可獲得。</li>
+                        </ol>
+                        <h3 class="modal-sub-title">✦參展資訊✦</h3>
+                        <ul>
+                            <li>活動時間：2023/7/31（星期一）20:00開始</li>
+                            <li>活動地點：台北世貿三館 202 攤位</li>
+                            <li>活動網址：<a href="https://www.youtube.com/@Rui_Seshima">https://www.youtube.com/@Rui_Seshima</a></li>
+                        </ul>
+                        <img class="decoration-bottom" src="/img/decoration-1.png" alt="image">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn primary-button" data-bs-dismiss="modal">關閉</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- news-2 -->
+        <div class="sub-page-news" type="button" data-bs-toggle="modal" data-bs-target="#news-2">
+            <img class="col-md-6 col-lg-5 image" src="/img/news-image-2.png" alt="news">
+            <div class="content col-md-6  col-lg-7 ">
+                <div class="wording">
+                    <h2 class="title">＊FF40開拓動漫祭見面會＊在台大體育館與您相見歡！</h2>
+                    <p class="description">本次主題是以"Summer Time"為主要設計概念，按照慣例，除了全新的周邊以外，還有特別的現場活動。這次我們的攤位也跟以往完全不同，會以全新的面貌參展!
+                        非常期待當天與各位見面，敬請期待!</p>
+                </div>
+                <div class="tag-and-date">
+                    <div class="tag notice"><p>公告</p></div>
+                    <p class="date">2023/06/22</p>
+                </div>
+            </div>
+        </div>
+        <!-- news-2 modal -->
+        <div class="modal fade modal-news" id="news-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="image news-image-2"></div>
+                    <div class="content">
+                        <img src="/img/decoration-1.png" alt="image">
+                        <h2 class="modal-title">＊FF40開拓動漫祭見面會＊<br>在台大體育館與您相見歡！</h2>
+                        <p class="description">本次主題是以"Summer Time"為主要設計概念，按照慣例，除了全新的周邊以外，還有特別的現場活動。這次我們的攤位也跟以往完全不同，會以全新的面貌參展!
+                            非常期待當天與各位見面，敬請期待!</p>
+                        <h3 class="modal-sub-title">✦買動漫預購也已經同步上架✦</h3>
+                        <p>體諒無法到場購買的觀眾，這次的預購有準備50份限量套組
+                            請各位不要錯過預購時間哦!<br>
+                            賣場傳送門：<a href="https://reurl.cc/qL4kXp">https://reurl.cc/qL4kXp</a></p>
+                        <h3 class="modal-sub-title">✦現場活動✦</h3>
+                        <p class="description">本次的FF攤位，依然會帶來許多活動哦!<br>滿額贈禮、競標活動、現場互動區、一對一Talk 以及全新的子午計畫一番賞</p>
+                        <h3 class="modal-sub-title">✦子午計畫一番賞✦</h3>
+                        <p class="description">本次的FF攤位，依然會帶來許多活動哦!<br>FF41整整三天都有獎項等你來抽!</p>
+                        <ol>
+                            <li>1. 每抽300元，通通有獎，均可獲得隨機四款保底胸章+對應之一番賞獎項。</li>
+                            <li>2. 抽完後現場兌換，兌獎紙由工作人員回收，離櫃後無法兌換，請多注意。</li>
+                            <li>3. 每天限量400抽，抽完為止。</li>
+                            <li>4. 獎項分別有：A、Ｂ、Ｃ、Ｄ、Ｅ、Ｆ、Ｇ賞以及最終賞。</li>
+                            <li>5. 最終賞為每日抽完當日最後一抽即可獲得。</li>
+                        </ol>
+                        <h3 class="modal-sub-title">✦參展資訊✦</h3>
+                        <ul>
+                            <li>活動時間：2023/7/31（星期一）20:00開始</li>
+                            <li>活動地點：台北世貿三館 202 攤位</li>
+                            <li>活動網址：<a href="https://www.youtube.com/@Rui_Seshima">https://www.youtube.com/@Rui_Seshima</a></li>
+                        </ul>
+                        <img class="decoration-bottom" src="/img/decoration-1.png" alt="image">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn primary-button" data-bs-dismiss="modal">關閉</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- news-3 -->
+        <div class="sub-page-news" type="button" data-bs-toggle="modal" data-bs-target="#news-3">
+            <img class="col-md-6 col-lg-5 image" src="/img/news-image-3.png" alt="news">
+            <div class="content col-md-6  col-lg-7 ">
+                <div class="wording">
+                    <h2 class="title">瀨島るい生日記念豪華特典！7/20(三)19:00起開始販售~同人cosplay場就在世貿三館！</h2>
+                    <p class="description">本次主題是以"Summer Time"為主要設計概念，按照慣例，除了全新的周邊以外，還有特別的現場活動。這次我們的攤位也跟以往完全不同，會以全新的面貌參展!
+                        非常期待當天與各位見面，敬請期待!</p>
+                </div>
+                <div class="tag-and-date">
+                    <div class="tag sales"><p>販售資訊</p></div>
+                    <p class="date">2023/06/15</p>
+                </div>
+            </div>
+        </div>
+        <!-- news-3 modal -->
+        <div class="modal fade modal-news" id="news-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="image news-image-3"></div>
+                    <div class="content">
+                        <img src="/img/decoration-1.png" alt="image">
+                        <h2 class="modal-title">瀨島るい生日記念豪華特典！<br>7/20(三)19:00起開始販售~同人cosplay場就在世貿三館！</h2>
+                        <p class="description">本次主題是以"Summer Time"為主要設計概念，按照慣例，除了全新的周邊以外，還有特別的現場活動。這次我們的攤位也跟以往完全不同，會以全新的面貌參展!
+                            非常期待當天與各位見面，敬請期待!</p>
+                        <h3 class="modal-sub-title">✦買動漫預購也已經同步上架✦</h3>
+                        <p>體諒無法到場購買的觀眾，這次的預購有準備50份限量套組
+                            請各位不要錯過預購時間哦!<br>
+                            賣場傳送門：<a href="https://reurl.cc/qL4kXp">https://reurl.cc/qL4kXp</a></p>
+                        <h3 class="modal-sub-title">✦現場活動✦</h3>
+                        <p class="description">本次的FF攤位，依然會帶來許多活動哦!<br>滿額贈禮、競標活動、現場互動區、一對一Talk 以及全新的子午計畫一番賞</p>
+                        <h3 class="modal-sub-title">✦子午計畫一番賞✦</h3>
+                        <p class="description">本次的FF攤位，依然會帶來許多活動哦!<br>FF41整整三天都有獎項等你來抽!</p>
+                        <ol>
+                            <li>1. 每抽300元，通通有獎，均可獲得隨機四款保底胸章+對應之一番賞獎項。</li>
+                            <li>2. 抽完後現場兌換，兌獎紙由工作人員回收，離櫃後無法兌換，請多注意。</li>
+                            <li>3. 每天限量400抽，抽完為止。</li>
+                            <li>4. 獎項分別有：A、Ｂ、Ｃ、Ｄ、Ｅ、Ｆ、Ｇ賞以及最終賞。</li>
+                            <li>5. 最終賞為每日抽完當日最後一抽即可獲得。</li>
+                        </ol>
+                        <h3 class="modal-sub-title">✦參展資訊✦</h3>
+                        <ul>
+                            <li>活動時間：2023/7/31（星期一）20:00開始</li>
+                            <li>活動地點：台北世貿三館 202 攤位</li>
+                            <li>活動網址：<a href="https://www.youtube.com/@Rui_Seshima">https://www.youtube.com/@Rui_Seshima</a></li>
+                        </ul>
+                        <img class="decoration-bottom" src="/img/decoration-1.png" alt="image">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn primary-button" data-bs-dismiss="modal">關閉</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- news-4 -->
+        <div class="sub-page-news" type="button" data-bs-toggle="modal" data-bs-target="#news-4">
+            <img class="col-md-6 col-lg-5 image" src="/img/news-image-4.png" alt="news">
+            <div class="content col-md-6  col-lg-7 ">
+                <div class="wording">
+                    <h2 class="title">⿓ヶ崎リン初登場！3D LIVE 演唱會「Garnet Moon」確定發行！ </h2>
+                    <p class="description">本次主題是以"Summer Time"為主要設計概念，按照慣例，除了全新的周邊以外，還有特別的現場活動。這次我們的攤位也跟以往完全不同，會以全新的面貌參展!
+                        非常期待當天與各位見面，敬請期待!</p>
+                </div>
+                <div class="tag-and-date">
+                    <div class="tag notice"><p>公告</p></div>
+                    <p class="date">2023/06/03</p>
+                </div>
+            </div>
+        </div>
+        <!-- news-4 modal -->
+        <div class="modal fade modal-news" id="news-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="image news-image-4"></div>
+                    <div class="content">
+                        <img src="/img/decoration-1.png" alt="image">
+                        <h2 class="modal-title">⿓ヶ崎リン初登場！3D LIVE 演唱會「Garnet Moon」確定發行！ </h2>
+                        <p class="description">本次主題是以"Summer Time"為主要設計概念，按照慣例，除了全新的周邊以外，還有特別的現場活動。這次我們的攤位也跟以往完全不同，會以全新的面貌參展!
+                            非常期待當天與各位見面，敬請期待!</p>
+                        <h3 class="modal-sub-title">✦買動漫預購也已經同步上架✦</h3>
+                        <p>體諒無法到場購買的觀眾，這次的預購有準備50份限量套組
+                            請各位不要錯過預購時間哦!<br>
+                            賣場傳送門：<a href="https://reurl.cc/qL4kXp">https://reurl.cc/qL4kXp</a></p>
+                        <h3 class="modal-sub-title">✦現場活動✦</h3>
+                        <p class="description">本次的FF攤位，依然會帶來許多活動哦!<br>滿額贈禮、競標活動、現場互動區、一對一Talk 以及全新的子午計畫一番賞</p>
+                        <h3 class="modal-sub-title">✦子午計畫一番賞✦</h3>
+                        <p class="description">本次的FF攤位，依然會帶來許多活動哦!<br>FF41整整三天都有獎項等你來抽!</p>
+                        <ol>
+                            <li>1. 每抽300元，通通有獎，均可獲得隨機四款保底胸章+對應之一番賞獎項。</li>
+                            <li>2. 抽完後現場兌換，兌獎紙由工作人員回收，離櫃後無法兌換，請多注意。</li>
+                            <li>3. 每天限量400抽，抽完為止。</li>
+                            <li>4. 獎項分別有：A、Ｂ、Ｃ、Ｄ、Ｅ、Ｆ、Ｇ賞以及最終賞。</li>
+                            <li>5. 最終賞為每日抽完當日最後一抽即可獲得。</li>
+                        </ol>
+                        <h3 class="modal-sub-title">✦參展資訊✦</h3>
+                        <ul>
+                            <li>活動時間：2023/7/31（星期一）20:00開始</li>
+                            <li>活動地點：台北世貿三館 202 攤位</li>
+                            <li>活動網址：<a href="https://www.youtube.com/@Rui_Seshima">https://www.youtube.com/@Rui_Seshima</a></li>
+                        </ul>
+                        <img class="decoration-bottom" src="/img/decoration-1.png" alt="image">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn primary-button" data-bs-dismiss="modal">關閉</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- news-5 -->
+        <div class="sub-page-news" type="button" data-bs-toggle="modal" data-bs-target="#news-5">
+            <img class="col-md-6 col-lg-5 image" src="/img/news-image-5.png" alt="news">
+            <div class="content col-md-6  col-lg-7 ">
+                <div class="wording">
+                    <h2 class="title">紫水キキ生日記念豪華特典！6/21(三)20:00起開始販售~同人cosplay場就在世貿三館！ </h2>
+                    <p class="description">本次主題是以"Summer Time"為主要設計概念，按照慣例，除了全新的周邊以外，還有特別的現場活動。這次我們的攤位也跟以往完全不同，會以全新的面貌參展!
+                        非常期待當天與各位見面，敬請期待!</p>
+                </div>
+                <div class="tag-and-date">
+                    <div class="tag sales"><p>販售資訊</p></div>
+                    <p class="date">2023/05/27</p>
+                </div>
+            </div>
+        </div>
+        <!-- news-5 modal -->
+        <div class="modal fade modal-news" id="news-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="image news-image-5"></div>
+                    <div class="content">
+                        <img src="/img/decoration-1.png" alt="image">
+                        <h2 class="modal-title">紫水キキ生日記念豪華特典！6/21(三)20:00起開始販售~同人cosplay場就在世貿三館！</h2>
+                        <p class="description">本次主題是以"Summer Time"為主要設計概念，按照慣例，除了全新的周邊以外，還有特別的現場活動。這次我們的攤位也跟以往完全不同，會以全新的面貌參展!
+                            非常期待當天與各位見面，敬請期待!</p>
+                        <h3 class="modal-sub-title">✦買動漫預購也已經同步上架✦</h3>
+                        <p>體諒無法到場購買的觀眾，這次的預購有準備50份限量套組
+                            請各位不要錯過預購時間哦!<br>
+                            賣場傳送門：<a href="https://reurl.cc/qL4kXp">https://reurl.cc/qL4kXp</a></p>
+                        <h3 class="modal-sub-title">✦現場活動✦</h3>
+                        <p class="description">本次的FF攤位，依然會帶來許多活動哦!<br>滿額贈禮、競標活動、現場互動區、一對一Talk 以及全新的子午計畫一番賞</p>
+                        <h3 class="modal-sub-title">✦子午計畫一番賞✦</h3>
+                        <p class="description">本次的FF攤位，依然會帶來許多活動哦!<br>FF41整整三天都有獎項等你來抽!</p>
+                        <ol>
+                            <li>1. 每抽300元，通通有獎，均可獲得隨機四款保底胸章+對應之一番賞獎項。</li>
+                            <li>2. 抽完後現場兌換，兌獎紙由工作人員回收，離櫃後無法兌換，請多注意。</li>
+                            <li>3. 每天限量400抽，抽完為止。</li>
+                            <li>4. 獎項分別有：A、Ｂ、Ｃ、Ｄ、Ｅ、Ｆ、Ｇ賞以及最終賞。</li>
+                            <li>5. 最終賞為每日抽完當日最後一抽即可獲得。</li>
+                        </ol>
+                        <h3 class="modal-sub-title">✦參展資訊✦</h3>
+                        <ul>
+                            <li>活動時間：2023/7/31（星期一）20:00開始</li>
+                            <li>活動地點：台北世貿三館 202 攤位</li>
+                            <li>活動網址：<a href="https://www.youtube.com/@Rui_Seshima">https://www.youtube.com/@Rui_Seshima</a></li>
+                        </ul>
+                        <img class="decoration-bottom" src="/img/decoration-1.png" alt="image">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn primary-button" data-bs-dismiss="modal">關閉</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <nav aria-label="Page navigation news-pagination">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item page-active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+    </div>
+    <div class="decoration-triangle"></div>
+
+    <!--footer-->
+    <footer>
+        <div class="container">
+            <img src="/img/image-logo-w.png" alt="logo">
+            <div class="content">
+                <ul class="nav footer-nav">
+                    <li>
+                        <a class="sub-page" href="/policy.html">
+                            <div class="sub-page-icon sub-page-icon-4"></div>
+                            <p class="sub-page-name">公司規範</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="sub-page" href="/contact.html">
+                            <div class="sub-page-icon sub-page-icon-5"></div>
+                            <p class="sub-page-name">聯絡我們</p>
+                        </a>
+                    </li>
+                </ul>
+                <p class="note">Copyright © 2023 - 帕露梅爾數位創意有限公司 | All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>

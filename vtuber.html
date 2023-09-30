@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plamour-藝人介紹</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: round;
+            src: url(/font/Round.otf)
+    }
+    </style>
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <!--header-->
+    <div class="container">
+        <header class="header">
+            <a href="/index.html"><h1><img src="/img/image-logo.png" alt="Plamour"></h1></a>
+            <!--web nav-->
+            <ul class="nav header-nav display-none">
+                <li>
+                    <a class="sub-page" href="/news.html">
+                        <div class="sub-page-icon sub-page-icon-1"></div>
+                        <p class="sub-page-name">最新消息</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="sub-page active" href="/vtuber.html">
+                        <div class="sub-page-icon sub-page-icon-active-2"></div>
+                        <p class="sub-page-name">藝人介紹</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="sub-page" href="/contact.html">
+                        <div class="sub-page-icon sub-page-icon-3"></div>
+                        <p class="sub-page-name">聯絡我們</p>
+                    </a>
+                </li>
+            </ul>
+            <!--mobile nav-->
+            <div class="dropdown header-nav-dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="/img/icon-menu.png" alt="menu">
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <a href="/news.html">
+                        <li class="header-nav">
+                            <button class="dropdown-item" type="button" >
+                            <div class="sub-page-icon sub-page-icon-1"></div>最新消息</button>
+                        </li>
+                    </a>
+                    <a href="/vtuber.html">
+                        <li class="header-nav">
+                            <button class="dropdown-item" type="button">
+                            <div class="sub-page-icon sub-page-icon-2"></div>藝人介紹</button>
+                        </li>
+                    </a>
+                    <a href="/contact.html">
+                        <li class="header-nav">
+                            <button class="dropdown-item" type="button">
+                            <div class="sub-page-icon sub-page-icon-3"></div>聯絡我們</button>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <!--banner-->
+    <div class="banner">
+        <img class="box-sm left-box-sm" src="/img/rectangle-color.png" alt="">
+        <img class="left-box-lg" src="/img/rectangle-color.png" alt="">
+        <h1 class="title">藝人介紹</h1>
+        <img class="right-box-lg" src="img/rectangle-color.png" alt="">
+        <img class="box-sm right-box-sm" src="/img/rectangle-color.png" alt="">
+    </div>
+    <!--vtuber-menu-->
+    <div class="vtuber-menu sticky-top">
+        <a href="#vtuber-1" class="vtuber-icon"><div class="vtuber-icon-size vtuber-icon-1"><p class="vtuber-menu-name">妮露米</p></div></a>
+        <a href="#vtuber-2" class="vtuber-icon"><div class="vtuber-icon-size vtuber-icon-2"><p class="vtuber-menu-name">森羽悠娜</p></div></a>
+        <a href="#" class="vtuber-icon"><div class="vtuber-icon-size vtuber-icon-3"></div></a>
+        <a href="#" class="vtuber-icon end-icon"><div class="vtuber-icon-size vtuber-icon-3"></div></a>
+     
+    </div>
+    <!--妮露米-->
+    <div class="background background-blue" id="vtuber-1">
+        <div class="container vtuber vtuber-1">
+            <div class="padding-top-and-bottom">
+                <div class="content">
+                    <h2 class="vtuber-name">妮露米</h2>
+                    <div class="social-media">
+                        <a class="icon-sns" href="#" target="_blank"><img class="sns-image" src="/img/icon-ig.png" alt="IG"></a>
+                        <a class="icon-sns" href="#" target="_blank"><img class="sns-image" src="/img/icon-fb.png" alt="FB"></a>
+                        <a class="icon-sns" href="#" target="_blank"><img class="sns-image" src="/img/icon-x.png" alt="X"></a>
+                        <a class="icon-sns" href="#" target="_blank"><img class="sns-image" src="/img/icon-youtube.png" alt="Youtube"></a>
+                    </div>
+                    <p class="description">
+                        從古至今,狐妖家族都非常擅於經商。 妮露米便是出生於狐妖家族的小狐妖,可她卻喜歡玩耍睡覺,更立志要成為狐妖家唯一的尼特族。
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-vtuber-1">
+                        角色故事 <img src="img/icon-next-white.png" alt="next">
+                    </button>
+    
+                    <!-- Modal -->
+                    <div class="modal fade modal-vtuber" id="modal-vtuber-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <div class="modal-header header-mobile">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5 ms-auto image-vtuber">
+                                                <img src="img/妮露米-全身-shadow.png" alt="妮露米">
+                                            </div>
+                                            <div class="col-md-7 ms-auto">
+                                                <div class="modal-header header-pc">
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <h2 class="title">妮露米</h2>
+                                                <p class="text">從古至今,狐妖家族都非常擅於經商。<br>妮露米便是出生於狐妖家族的小狐妖,可她卻喜歡玩耍睡覺,更立志要成為狐妖家唯一的尼特族。<br><br>但在她成年的這天,族人卻將一間神秘的公會一帕露梅爾交託給她,並指派她成為了代理會長,也承諾她只要完成了公會繁榮的目標，就放她回去享受自由，於是，妮露米便開始了半推半就努力經營公會的生活。<br><br>在一次神秘的魔法儀式中，帕露梅爾公會被傳送到了台灣。這次的儀式是由公會中的一位年老的魔法師進行的，他試圖打開一扇通往另一個世界的門，但由於某些未知的原因，整個公會都被傳送到了台灣...</p>
+                                                <div class="video">
+                                                    <iframe width="466" height="262" src="https://www.youtube.com/embed/tB4jlLzRakM?si=Ln0HAsdiGOOx9jS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn primary-button" data-bs-dismiss="modal">關閉</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vtuber-image">
+                <img class="vtuber-image-1" src="/img/妮露米-半身.png" alt="妮露米">
+            </div>
+        </div>
+    </div>
+    <!--森羽悠娜-->
+    <div class="background background-green" id="vtuber-2">
+        <div class="container vtuber vtuber-2">
+            <div class="padding-top-and-bottom">
+                <div class="content">
+                    <h2 class="vtuber-name">森羽悠娜</h2>
+                    <div class="social-media">
+                        <a class="icon-sns" href="#" target="_blank"><img class="sns-image" src="/img/icon-ig.png" alt="IG"></a>
+                        <a class="icon-sns" href="#" target="_blank"><img class="sns-image" src="/img/icon-fb.png" alt="FB"></a>
+                        <a class="icon-sns" href="#" target="_blank"><img class="sns-image" src="/img/icon-x.png" alt="X"></a>
+                        <a class="icon-sns" href="#" target="_blank"><img class="sns-image" src="/img/icon-youtube.png" alt="Youtube"></a>
+                    </div>
+                    <p class="description">
+                        追求寧靜生活的羊角一族定居在森林深處，鮮少與其他種族來往。但悠娜卻不同，她對任何事情都充滿好奇心，卻常常因此闖禍。
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-vtuber-2">
+                        角色故事 <img src="img/icon-next-black.png" alt="next">
+                    </button>
+        
+                    <!-- Modal -->
+                    <div class="modal fade modal-vtuber" id="modal-vtuber-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <div class="modal-header header-mobile">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5 ms-auto image-vtuber">
+                                                <img src="img/森羽悠娜-全身-shadow.png" alt="森羽悠娜">
+                                            </div>
+                                            <div class="col-md-7 ms-auto">
+                                                <div class="modal-header header-pc">
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <h2 class="title">森羽悠娜</h2>
+                                                <p class="text">追求寧靜生活的羊角一族定居在森林深處，鮮少與其他種族來往。但悠娜卻不同，她對任何事情都充滿好奇心，卻常常因此闖禍。<br><br>天生具有言靈的悠娜，常常話音剛落，說的話就成真了，雖然總是應驗在不好的事情上，但悠娜沒有放棄，她不斷嘗試練習，只要尋找到能控制言靈的方式，就可以用來幫助別人，讓每個人都開心快樂。<br><br>某天，悠娜意外踏入了帕露梅爾冒險者公會，認識了狐妖妮妮，還發現公會裡有很多有趣的東西，像是一大堆看都看不完的古老書籍、還有一顆水晶球，雖然妮妮說那顆水晶球沒什麼作用，但悠娜卻發現那水晶球能看到任何想看到的東西，從那天起，悠娜就常常在公會裡一待就是一整天，在傳送的儀式中，跟著妮妮一起被傳送到了台灣...</p>
+                                                <div class="video">
+                                                    <iframe width="466" height="262" src="https://www.youtube.com/embed/tB4jlLzRakM?si=Ln0HAsdiGOOx9jS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn primary-button" data-bs-dismiss="modal">關閉</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vtuber-image">
+                <img class="vtuber-image-2" src="/img/森羽悠娜-半身.png" alt="森羽悠娜">
+            </div>
+
+        </div>
+    </div>
+    <!--footer-->
+    <footer>
+        <div class="container">
+            <img src="/img/image-logo-w.png" alt="logo">
+            <div class="content">
+                <ul class="nav footer-nav">
+                    <li>
+                        <a class="sub-page" href="/policy.html">
+                            <div class="sub-page-icon sub-page-icon-4"></div>
+                            <p class="sub-page-name">公司規範</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="sub-page" href="/contact.html">
+                            <div class="sub-page-icon sub-page-icon-5"></div>
+                            <p class="sub-page-name">聯絡我們</p>
+                        </a>
+                    </li>
+                </ul>
+                <p class="note">Copyright © 2023 - 帕露梅爾數位創意有限公司 | All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>

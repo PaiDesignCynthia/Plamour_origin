@@ -1,0 +1,229 @@
+//------首頁------//
+.homepage {
+    position: relative;
+    background-image: url(/img/background-airplane.png);
+    background-position: center 12px;
+    background-repeat: no-repeat;
+
+    //最新消息//
+    .title{
+        padding-top:200px;
+        display: flex;
+        @media (max-width: 768px) {
+            padding-top:120px;};
+        
+        margin-bottom: 60px;
+        position: relative;
+        .title-text {
+            position: relative;
+            font-family: round;
+            font-size: 48px;
+            letter-spacing: 8px;
+            @media (max-width: 992px) {
+                font-size: 32px};
+            .text-background {
+                font-family: 'Abril Fatface', cursive;
+                font-size: 140px;
+                letter-spacing: 16px;
+                color: #f1f0e6;
+                @media (max-width: 992px) {
+                     font-size: 80px};
+            }
+            .title-text-right {
+                position: absolute;
+                right: 0px;
+                bottom: 20px;
+            }
+            .title-text-left {
+                position: absolute;
+                left: 0px;
+                bottom: 20px;
+            }
+        }
+        .block-left {
+            position: absolute;
+            left: -24%;
+            bottom: 16px;
+            @media (max-width: 992px) {
+                width: 70%;};
+        }
+        .block-right {
+            position: absolute;
+            right: -24%;
+            bottom: 16px;
+            @media (max-width: 992px) {
+                width: 70%;};
+        }
+    }
+    .title-right {
+        justify-content: end;
+    }
+    .section-news {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .news {
+        margin-bottom: 60px;
+        .card-margin-bottom {
+            margin-bottom: 24px;
+        }
+        .card-news {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            border-radius: 8px;
+            border: 1px solid $natural-200;
+            box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+            background: #ffffff;
+            &:hover {
+                .card-news-title {
+                    color:$primary-color;
+                }
+            }
+        }
+        .card-news-image {
+            border-radius: 8px 8px 0 0;
+            margin-bottom: 24px;
+            width: 100%;
+        }
+
+        .card-news-title {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 120%;
+            letter-spacing: 1px;
+            margin: 0 20px;   
+            padding-bottom: 20px;            
+            @media (max-width: 992px) { 
+                    font-size: 20px;
+                };
+        }
+
+
+    }
+
+    //品牌故事(共用)//
+    .story-text {
+        font-size: 18px;
+        @media (max-width: 992px) {
+            font-size: 16px;};  
+    }
+    .story-title {
+        font-size: 28px;
+        font-weight: 700;
+        padding-bottom: 16px;
+        border-bottom: 6px solid $yellow;
+        margin-bottom: 32px;            
+        @media (max-width: 992px) {
+            font-size: 24px;};          
+    }
+
+
+    //品牌故事1//
+    .section-story1 {
+        position: relative;
+        margin-bottom: 320px;
+    }
+    .position-setting {
+        position: relative;
+    }
+    .ship {
+        position: absolute;
+        right: -24%;
+        top: 32%;
+        @media (max-width: 992px) {
+            top: 20%;};
+        @media (max-width: 768px) {
+            display: none;};
+    }
+
+    .img-union {
+        position: absolute; 
+        right: -25%;
+        top: -440px;
+        width: 65%;
+        @media (max-width: 1200px) { 
+            top:-300px};
+        @media (max-width: 992px) { 
+                top:-100px;
+                width: 55%;
+            };
+        @media (max-width: 767px) { 
+            display: none;};
+    }
+    .story1-content {
+        width: 60%;
+        margin-top: 24%;
+        padding:72px 56px;
+        border: 8px solid transparent;
+        border-radius: 8px;
+        background-clip: padding-box, border-box;
+        background-origin: padding-box, border-box;
+        background-image: linear-gradient(to right, #ffffff, #ffffff), linear-gradient(270deg, $purple, $primary-color, $yellow, $blue);
+        @media (max-width: 992px) {
+            width: 70%;
+            margin-top: 10%;
+            padding:40px 48px;
+        };
+        @media (max-width: 767px) { 
+            width: 100%;};
+    }
+        .story-title {
+            display: flex;
+            align-items: center;         
+        }
+        .story1-title-name {
+            font-size: 32px;
+            margin-left: -18px;        
+            @media (max-width: 992px) {
+                font-size: 28px;};
+        }
+
+
+     //品牌故事2//
+     .section-story2 {
+        justify-content: end;
+        background:$yellow;
+        border-top: 12px solid $primary-color;
+        .container {
+            position: relative;
+            display: flex;
+            justify-content: end;
+        }
+     }
+     .img-flyer {
+        width: 55%;
+        position: absolute;
+        left: -100px;
+        top: -170px;
+        @media (max-width: 1400px) { 
+            top: 0%;};
+        @media (max-width: 992px) { 
+            display: none;};
+     }
+     .story2-content {
+        margin: 60px 0;
+        width: 50%;
+        padding: 16px;
+        border-radius: 8px;
+        background: linear-gradient(34deg,#F7F3E3 50%, #FFFBEB 50%);
+        @media (max-width: 992px) { 
+            width: 100%;
+            margin-top:-240px;
+        };
+     }
+     .color-border {
+        padding: 48px 36px;
+        border: 4px solid transparent;
+        border-radius: 8px;
+        background-clip: padding-box, border-box;
+        background-origin: padding-box, border-box;
+        background-image: linear-gradient(34deg,#F7F3E3 50%, #FFFBEB 50%), linear-gradient(270deg, $purple, $primary-color, $yellow, $blue);
+     }
+
+     
+
+}

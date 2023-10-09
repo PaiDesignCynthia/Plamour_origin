@@ -108,12 +108,12 @@ p {
 
 .homepage {
   position: relative;
-  background-image: url(/img/background-airplane.png);
-  background-position: center 12px;
+  background-image: url(/img/background_airplane.png);
+  background-position: center 0px;
   background-repeat: no-repeat;
 }
 .homepage .title {
-  padding-top: 200px;
+  padding-top: 400px;
   display: flex;
   margin-bottom: 60px;
   position: relative;
@@ -148,7 +148,10 @@ p {
 .homepage .title .title-text .title-text-right {
   position: absolute;
   right: 0px;
-  bottom: 20px;
+  bottom: 10px;
+}
+.homepage .title .title-text .news-wording {
+  bottom: -10px;
 }
 .homepage .title .title-text .title-text-left {
   position: absolute;
@@ -157,26 +160,23 @@ p {
 }
 .homepage .title .block-left {
   position: absolute;
-  left: -24%;
+  left: 0%;
   bottom: 16px;
 }
 @media (max-width: 992px) {
   .homepage .title .block-left {
-    width: 70%;
+    width: 50%;
   }
 }
 .homepage .title .block-right {
   position: absolute;
-  right: -24%;
+  right: 0%;
   bottom: 16px;
 }
 @media (max-width: 992px) {
   .homepage .title .block-right {
-    width: 70%;
+    width: 50%;
   }
-}
-.homepage .title-right {
-  justify-content: end;
 }
 .homepage .section-news {
   display: flex;
@@ -241,15 +241,25 @@ p {
   }
 }
 .homepage .section-story1 {
-  position: relative;
+  padding-top: 200px;
   margin-bottom: 320px;
+  background-image: url("/img/background_union.png");
+  background-position: right;
+  background-size: 600px 700px;
+  background-repeat: no-repeat;
+}
+@media (max-width: 992px) {
+  .homepage .section-story1 {
+    background-size: contain;
+  }
 }
 .homepage .position-setting {
   position: relative;
+  padding-top: 200px;
 }
 .homepage .ship {
   position: absolute;
-  right: -24%;
+  right: 0%;
   top: 32%;
 }
 @media (max-width: 992px) {
@@ -262,31 +272,8 @@ p {
     display: none;
   }
 }
-.homepage .img-union {
-  position: absolute;
-  right: -25%;
-  top: -440px;
-  width: 65%;
-}
-@media (max-width: 1200px) {
-  .homepage .img-union {
-    top: -300px;
-  }
-}
-@media (max-width: 992px) {
-  .homepage .img-union {
-    top: -100px;
-    width: 55%;
-  }
-}
-@media (max-width: 767px) {
-  .homepage .img-union {
-    display: none;
-  }
-}
 .homepage .story1-content {
   width: 60%;
-  margin-top: 24%;
   padding: 72px 56px;
   border: 8px solid transparent;
   border-radius: 8px;
@@ -431,7 +418,7 @@ p {
   }
 }
 .vtuber-menu .vtuber-icon-1 {
-  background-image: url(img/icon-妮露米.png);
+  background-image: url(img/icon_妮露米.png);
   color: rgb(11, 82, 121);
 }
 .vtuber-menu .vtuber-icon-1 .vtuber-menu-name {
@@ -443,7 +430,7 @@ p {
   }
 }
 .vtuber-menu .vtuber-icon-2 {
-  background-image: url(img/icon-森羽悠娜.png);
+  background-image: url(img/icon_森羽悠娜.png);
   color: rgb(7, 54, 6);
 }
 .vtuber-menu .vtuber-icon-2 .vtuber-menu-name {
@@ -455,10 +442,10 @@ p {
   }
 }
 .vtuber-menu .vtuber-icon-3 {
-  background-image: url(img/icon-未定.png);
+  background-image: url(img/icon_未定.png);
 }
 .vtuber-menu .vtuber-icon-4 {
-  background-image: url(img/icon-未定.png);
+  background-image: url(img/icon_未定.png);
 }
 
 .background {
@@ -468,11 +455,11 @@ p {
 }
 
 .background-blue {
-  background-image: url(img/background-blue.png);
+  background-image: url(img/background_blue.png);
 }
 
 .background-green {
-  background-image: url(img/background-green.png);
+  background-image: url(img/background_green.png);
 }
 
 .vtuber .padding-top-and-bottom {
@@ -714,19 +701,19 @@ p {
   }
 }
 .modal-news .news-image-1 {
-  background-image: url(img/news-image-1.png);
+  background-image: url(img/news_image_1.png);
 }
 .modal-news .news-image-2 {
-  background-image: url(img/news-image-2.png);
+  background-image: url(img/news_image_2.png);
 }
 .modal-news .news-image-3 {
-  background-image: url(img/news-image-3.png);
+  background-image: url(img/news_image_3.png);
 }
 .modal-news .news-image-4 {
-  background-image: url(img/news-image-4.png);
+  background-image: url(img/news_image_4.png);
 }
 .modal-news .news-image-5 {
-  background-image: url(img/news-image-5.png);
+  background-image: url(img/news_image_5.png);
 }
 .modal-news .content {
   padding: 0 32px;
@@ -885,31 +872,31 @@ p {
 }
 
 .header-nav .sub-page-icon-1 {
-  background-image: url(/img/icon-star.png);
+  background-image: url(/img/icon_star.png);
 }
 .header-nav .sub-page-icon-2 {
-  background-image: url(/img/icon-mic.png);
+  background-image: url(/img/icon_mic.png);
 }
 .header-nav .sub-page-icon-3 {
-  background-image: url(/img/icon-contact.png);
+  background-image: url(/img/icon_contact.png);
 }
 .header-nav .sub-page-icon-active-1 {
-  background-image: url(/img/icon-star-color.png);
+  background-image: url(/img/icon_star_color.png);
 }
 .header-nav .sub-page-icon-active-2 {
-  background-image: url(/img/icon-mic-color.png);
+  background-image: url(/img/icon_mic_color.png);
 }
 .header-nav .sub-page-icon-active-3 {
-  background-image: url(/img/icon-contact-color.png);
+  background-image: url(/img/icon_contact_color.png);
 }
 .header-nav .sub-page:hover .sub-page-icon-1 {
-  background-image: url(/img/icon-star-color.png);
+  background-image: url(/img/icon_star_color.png);
 }
 .header-nav .sub-page:hover .sub-page-icon-2 {
-  background-image: url(/img/icon-mic-color.png);
+  background-image: url(/img/icon_mic_color.png);
 }
 .header-nav .sub-page:hover .sub-page-icon-3 {
-  background-image: url(/img/icon-contact-color.png);
+  background-image: url(/img/icon_contact_color.png);
 }
 
 .nav {
@@ -962,10 +949,10 @@ p {
 }
 
 .footer-nav .sub-page-icon-4 {
-  background-image: url(/img/icon-company-w.png);
+  background-image: url(/img/icon_company_w.png);
 }
 .footer-nav .sub-page-icon-5 {
-  background-image: url(/img/icon-contact-w.png);
+  background-image: url(/img/icon_contact_w.png);
 }
 @media (max-width: 768px) {
   .footer-nav {
@@ -1148,7 +1135,7 @@ footer .note {
 }
 
 .decoration-triangle {
-  background-image: url(img/decoration-2.png);
+  background-image: url(img/decoration_2.png);
   width: 100%;
   height: 54px;
 }/*# sourceMappingURL=all.css.map */

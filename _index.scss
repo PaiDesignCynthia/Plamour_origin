@@ -1,13 +1,13 @@
 //------首頁------//
 .homepage {
     position: relative;
-    background-image: url(/img/background-airplane.png);
-    background-position: center 12px;
+    background-image: url(/img/background_airplane.png);
+    background-position: center 0px;
     background-repeat: no-repeat;
 
     //最新消息//
     .title{
-        padding-top:200px;
+        padding-top:400px;
         display: flex;
         @media (max-width: 768px) {
             padding-top:120px;};
@@ -32,7 +32,10 @@
             .title-text-right {
                 position: absolute;
                 right: 0px;
-                bottom: 20px;
+                bottom: 10px;
+            }
+            .news-wording {
+                bottom: -10px;
             }
             .title-text-left {
                 position: absolute;
@@ -42,21 +45,18 @@
         }
         .block-left {
             position: absolute;
-            left: -24%;
+            left: 0%;
             bottom: 16px;
             @media (max-width: 992px) {
-                width: 70%;};
+                width: 50%;};
         }
         .block-right {
             position: absolute;
-            right: -24%;
+            right: 0%;
             bottom: 16px;
             @media (max-width: 992px) {
-                width: 70%;};
+                width: 50%;};
         }
-    }
-    .title-right {
-        justify-content: end;
     }
     .section-news {
         display: flex;
@@ -124,39 +124,32 @@
 
     //品牌故事1//
     .section-story1 {
-        position: relative;
+        //position: relative;
+        padding-top: 200px;
         margin-bottom: 320px;
+        background-image: url("/img/background_union.png");
+        background-position: right;
+        background-size: 600px 700px;
+        background-repeat: no-repeat;
+        @media (max-width: 992px) {
+            background-size: contain;};
     }
     .position-setting {
         position: relative;
+        padding-top:200px;
     }
     .ship {
         position: absolute;
-        right: -24%;
+        right: 0%;
         top: 32%;
         @media (max-width: 992px) {
             top: 20%;};
         @media (max-width: 768px) {
             display: none;};
-    }
+   }
 
-    .img-union {
-        position: absolute; 
-        right: -25%;
-        top: -440px;
-        width: 65%;
-        @media (max-width: 1200px) { 
-            top:-300px};
-        @media (max-width: 992px) { 
-                top:-100px;
-                width: 55%;
-            };
-        @media (max-width: 767px) { 
-            display: none;};
-    }
     .story1-content {
         width: 60%;
-        margin-top: 24%;
         padding:72px 56px;
         border: 8px solid transparent;
         border-radius: 8px;

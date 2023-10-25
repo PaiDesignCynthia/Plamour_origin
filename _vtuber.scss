@@ -100,6 +100,14 @@
         @media (max-width: 460px) { 
             width: 80%};
     }
+    .content-left {
+        @media (max-width: 460px) { 
+            padding-right: 88px;};
+    }
+    .content-right {
+        @media (max-width: 460px) { 
+            padding-left: 88px;};
+    }
     .vtuber-name {
         font-family: round;
         font-size: 40px;

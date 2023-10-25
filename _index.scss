@@ -124,7 +124,6 @@
 
     //品牌故事1//
     .section-story1 {
-        //position: relative;
         padding-top: 200px;
         margin-bottom: 320px;
         background-image: url("/img/background_union.png");
@@ -163,16 +162,25 @@
         };
         @media (max-width: 767px) { 
             width: 100%;};
+        @media (max-width: 568px) { 
+            padding:32px 24px;};
     }
         .story-title {
             display: flex;
-            align-items: center;         
+            align-items: center;
+            @media (max-width: 414px) {
+                flex-direction: column;
+            }
         }
         .story1-title-name {
             font-size: 32px;
-            margin-left: -18px;        
+           margin-left: -18px;   
             @media (max-width: 992px) {
                 font-size: 28px;};
+            @media (max-width: 414px) {
+                margin-left: 0px;
+                margin-bottom: 8px;
+            }
         }
 
 
@@ -215,6 +223,8 @@
         background-clip: padding-box, border-box;
         background-origin: padding-box, border-box;
         background-image: linear-gradient(34deg,#F7F3E3 50%, #FFFBEB 50%), linear-gradient(270deg, $purple, $primary-color, $yellow, $blue);
+        @media (max-width: 568px) { 
+            padding:32px 24px;};
      }
 
      

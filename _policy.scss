@@ -10,6 +10,10 @@
     background-clip: padding-box, border-box;
     background-origin: padding-box, border-box;
     background-image: linear-gradient(to right, #ffffff, #ffffff), linear-gradient(270deg, $purple, $primary-color, $yellow, $blue);
+    @media (max-width: 992px) { 
+        padding:48px;};
+    @media (max-width: 568px) { 
+        padding:32px;};
 }
 
 

@@ -11,11 +11,19 @@
         width: 48px;
     }
 }
+.contact-layout {
+    @media (max-width: 768px) { 
+        flex-direction: column;
+    }
+}
 .contact-type {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 40px;
+    @media (max-width: 768px) { 
+        margin-bottom: 60px;
+    }
 }
 .contact-title {
     text-align: center;
